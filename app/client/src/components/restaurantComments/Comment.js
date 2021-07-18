@@ -10,9 +10,9 @@ export default function Comment({ comment }) {
     <div className="comment-container">
       <div className="comment-head">
         <h3 className="comment-user">{comment.user}</h3>
-        <p className="comment-date">{comment.date}</p>
+        <p className="comment-date">{`${da}/${mo}/${ye}`}</p>
       </div>
-      <p>{`${da}/${mo}/${ye}`}</p>
+      <p>{comment.comment}</p>
     </div>
   );
 }
