@@ -1,0 +1,44 @@
+.restaurant-card-container {
+  width: 20%;
+  min-width: 275px;
+  border-right: 1px solid rgb(189, 189, 189);
+  border-bottom: 1px solid rgb(189, 189, 189);
+  border-radius: 0.5rem;
+  box-shadow: 5px 5px 12px rgb(189, 189, 189);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.restaurant-card-image {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.restaurant-card-title {
+  text-decoration: none;
+  margin: 0.5rem 0;
+  color: rgb(243, 91, 21);
+}
+
+.restaurant-card-title-link {
+  text-decoration: none;
+}
+
+.restaurant-card-title-link:hover .restaurant-card-title {
+  text-decoration: underline;
+}
+
+.restaurant-card-description {
+  margin: 0.5rem 0;
+}
+
+.restaurant-card-more-button {
+  text-decoration: none;
+  color: #f76c1c;
+}
+
+.restaurant-card-more-button:hover {
+  text-decoration: underline;
+}

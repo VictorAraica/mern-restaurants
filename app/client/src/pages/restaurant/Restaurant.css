@@ -1,0 +1,34 @@
+.restaurant-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.restaurant-details-title {
+  margin: 2rem;
+  color: black;
+  font-size: 3rem;
+  align-self: center;
+}
+
+.restaurant-details-description {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  align-self: center;
+  font-size: 1.5rem;
+}
+
+.restaurant-details-subtitle {
+  align-self: flex-start;
+  margin-bottom: 1rem;
+  color: #000000;
+  font-size: 1.8rem;
+}
+
+.restaurant-details-empty-message {
+  display: inline-block;
+  align-self: center;
+}

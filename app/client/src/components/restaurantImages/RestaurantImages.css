@@ -1,0 +1,21 @@
+.images-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 3rem;
+  gap: 1rem;
+}
+
+.restaurant-details-image-container {
+  display: flex;
+  gap: 1rem;
+  border-radius: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.restaurant-details-image {
+  /* min-width: 250px; */
+  height: 200px;
+}

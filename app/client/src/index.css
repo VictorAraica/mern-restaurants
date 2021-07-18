@@ -1,0 +1,18 @@
+:root {
+  --header-bg: #faad80;
+}
+
+#root {
+  min-height: 90vh;
+  position: relative;
+}
+
+body {
+  background-color: rgb(240, 240, 240);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}

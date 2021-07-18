@@ -1,0 +1,17 @@
+header {
+  background-color: rgb(194, 0, 0);
+}
+
+.header-margin {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-title {
+  margin: 1rem;
+  color: white;
+  text-decoration: none;
+}
