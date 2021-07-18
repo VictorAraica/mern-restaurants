@@ -2,8 +2,8 @@
 
 steps to run it:
 
-1- run: npm run install-client
+1- run: `npm run install-client`
 
-2- run: npm install
+2- run: `npm install`
 
-3- run: npm run dev
+3- run: `npm run dev`
